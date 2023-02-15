@@ -1,0 +1,136 @@
+.main{
+    height: 600px;
+    width: 1350px;
+    background-color: rgb(241, 112, 138);
+    padding-top: 15px;
+}
+  #mainheading{
+   /* font-weight: bold; */
+   font-size: larger;
+   color: white;
+   margin-left: 600px;
+   
+  
+    
+    
+}
+.innerDiv{
+    height: 400px;
+    width: 400px;
+    border: 1px solid yellow;
+    margin: auto;
+    background-color: aliceblue;    
+  
+}
+.size{
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive
+}
+
+.inputdiv{
+
+/* border: 2px solid black; */
+height: 27vh;
+
+}
+.inputdiv input.In{
+    height: 5vh;
+    width: 320px;
+    /* background-color: brown; */
+    margin-bottom: -5px;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+button.btn-customize {
+    height: 5vh;
+    margin-left: 33px;
+    margin-top: 20px;
+    width:329px ;
+    background-color: blue;
+    font-weight: bold;
+}
+.line
+{
+    width:130px;
+    border: 1px solid black;
+    margin-left: 35px;
+}
+.rightLine
+{
+    width: 130px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 35px;
+    margin-top: -24px;
+}
+span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-10px;
+    
+
+}
+.facebook {
+    text-align: center;
+}
+.face{
+    width: 50%;
+    height: 21px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    color: blue;
+}
+.face img{
+    float: left;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.face p{
+    float: left;
+    margin: 0
+}
+
+.tag{
+    margin-left: 12px;
+}
+
+.show{
+
+    display: block;
+}
+.hide{
+    display:none;
+}
+
+.navul {
+    display: flex;
+    width: 235px;
+}
+.cart-main{
+    height:550px;
+    width: 300px;
+    /* height: 200px; */
+    padding: 15px;
+    position: absolute;
+    margin: 0;
+    background: antiquewhite;
+    z-index: 1;
+    float: right;
+    top: 60px;
+    /* bottom: 0; */
+    /* left: 0; */
+    right: 15px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    overflow: auto;
+}
